@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-color: rgb(224,232,255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:50%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box{
+    background-color: #fff;
+    margin: 8rem;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0,0.25);
+    border-radius: 3rem;
+}
+.box >img{
+    border-radius: 2rem 2rem 0 0;
+}
+.box>h3{
+    text-align: center;
+    margin: 2rem;
+   font-size: 30px;
+}
+.box > p {
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.price{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    margin: 2rem;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.icon >p {
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+}
+.change{
+    text-decoration: underline;
+    color: blue;
+}
+.change >p {
+    font-weight: 900;
+    
+}
+.last{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+}
+#btn1{
+    color:#fff;
+    background-color: blue;
+    padding: 0.8rem 5rem;
+    border-radius: 0.5rem;
+    font-weight: 900;
+}
+#can{
+    color: hsl(224, 23%, 55%) ;
+    font-size: 16px;
+    font-weight: 900;
+}
